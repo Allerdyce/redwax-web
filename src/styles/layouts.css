@@ -222,8 +222,8 @@
 .layout-222{font-weight: 500; text-decoration: none}
 .layout-223{padding: 120px 22px; display: flex; justify-content: center; background: radial-gradient(ellipse 760px 420px at 70% 100%, var(--glow-a), rgba(0,0,0,0) 72%), radial-gradient(ellipse 820px 420px at 25% 110%, var(--glow-b), rgba(0,0,0,0) 72%), var(--page)}
 .layout-224{width: 100%; max-width: 720px; display: flex; flex-direction: column; align-items: center; gap: 20px; text-align: center}
-.layout-225{width:96px;height:96px;border-radius:22px;background:#FA6440;box-shadow:0 12px 30px var(--hair);display:flex;align-items:center;justify-content:center}
-.layout-226{width:84px;height:auto}
+.layout-225{width:96px;height:96px;border-radius:24px;background:transparent;box-shadow:0 12px 30px var(--hair);display:flex;align-items:center;justify-content:center}
+.layout-226{width:96px;height:auto}
 .layout-227{margin: 0; font-size: 21px; line-height: 1.4; color: var(--ink2); text-wrap: pretty}
 .layout-228{height: 52px; padding: 0 26px; display: inline-flex; align-items: center; gap: 10px; border-radius: 999px; background: var(--pill); color: var(--on-pill); text-decoration: none; font-size: 17px; font-weight: 600}
 .layout-229{padding: 56px 22px 40px; display: flex; justify-content: center; background: var(--band); font-size: 13px}
