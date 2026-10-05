@@ -39,7 +39,7 @@ export async function build() {
     DOWNLOAD_DESCRIPTION: released ? 'Free to download. Analyse and review every shoot for free, and export free for 14 days.' : 'A calmer first pass, shaped by your judgment. RedWax is in development; downloads will open here when the app is ready.',
     SUPPORT_INTRO: released ? 'Most answers are inside RedWax: choose Help › RedWax Help. The same pages are here.' : 'RedWax is in development. These guides describe the planned workflow. For questions before launch, get in touch.',
   };
-  const wordmark = '<picture><source media="(prefers-color-scheme: dark)" srcset="/assets/logo-white.svg"><img src="/assets/logo-black.svg" alt="" width="2276" height="524"></picture>';
+  const wordmark = '<picture><source media="(prefers-color-scheme: dark)" srcset="/assets/logo-white.svg"><img src="/assets/logo-black.svg" alt="" width="1952" height="524"></picture>';
   let header = await read('src/partials/header.html');
   let footer = await read('src/partials/footer.html');
   const substitute = (content) => content.replace(/\{\{([A-Z_]+)\}\}/g, (_, key) => key === 'WORDMARK' ? wordmark : values[key] ?? (() => { throw new Error(`Missing template value: ${key}`); })());
