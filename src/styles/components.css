@@ -10,9 +10,12 @@
 .redwax-wordmark picture,.redwax-wordmark img{display:block;width:100%;height:100%;object-fit:contain}
 .hero-app-window .redwax-wordmark{width:106.35px;height:29px}
 .vision-use{color:var(--on-cta,#FFFFFF)!important}
-.hero-app-preview{position:relative;width:100%;aspect-ratio:1280/820;overflow:hidden;border-radius:18px;filter:drop-shadow(0 28px 48px var(--shot-shadow));background:var(--page)}
-.hero-app-window{position:absolute!important;top:0;left:0;transform-origin:top left;transform:scale(.84375)}
-@media(max-width:640px){.hero-app-preview{border-radius:6px}}
+.hero-app-preview{position:relative;width:100%;aspect-ratio:1280/820;overflow:hidden;border-radius:18px 18px 0 0;filter:drop-shadow(0 28px 48px var(--shot-shadow));background:var(--page)}
+.hero-app-window{position:absolute!important;top:0;left:0;transform-origin:top left;transform:scale(.84375);border-radius:18px 18px 0 0}
+.hero-app-window .layout-40{text-align:left}
+.hero-app-window .layout-19{padding-bottom:0}
+.hero-app-window .layout-20{border-bottom-left-radius:0;border-bottom-right-radius:0}
+@media(max-width:640px){.hero-app-preview{border-radius:6px 6px 0 0}}
 body[data-surface=site] .hero-app-window h1{font-size:34px!important}
 
 /* White primary-action labels on a deeper shade of the logo coral. */
