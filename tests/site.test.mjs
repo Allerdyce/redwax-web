@@ -17,7 +17,7 @@ test('release requires a real download and approved privacy policy', () => {
   assert.throws(() => validateConfig({ ...config, downloadUrl: 'https://apps.apple.com/us/app/example/id12345', privacyApproved: false }), /privacy/);
 });
 test('protected pages and assets never reveal content before login', async () => {
-  for (const route of ['/', '/index.html', '/support/', '/privacy/', '/assets/site.css', '/assets/logo-black.svg', '/assets/logo-white.svg', '/assets/app-icon.svg', '/assets/photos/first-dance-hero-640.webp', '/api/site', '/not-found']) {
+  for (const route of ['/', '/index.html', '/support/', '/privacy/', '/assets/site.css', '/assets/dark.css', '/assets/theme.js', '/assets/logo-black.svg', '/assets/logo-white.svg', '/assets/app-icon.svg', '/assets/photos/first-dance-hero-640.webp', '/api/site', '/not-found']) {
     const response = await handleRequest(request(route), env);
     const body = await response.text();
     assert.match(body, /Preview password/);

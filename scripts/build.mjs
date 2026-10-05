@@ -39,7 +39,7 @@ export async function build() {
     DOWNLOAD_DESCRIPTION: released ? 'Free to download. Analyse and review every shoot for free, and export free for 14 days.' : 'A calmer first pass, shaped by your judgment. RedWax is in development; downloads will open here when the app is ready.',
     SUPPORT_INTRO: released ? 'Most answers are inside RedWax: choose Help › RedWax Help. The same pages are here.' : 'RedWax is in development. These guides describe the planned workflow. For questions before launch, get in touch.',
   };
-  const wordmark = '<picture><source media="(prefers-color-scheme: dark)" srcset="/assets/logo-white.svg"><img src="/assets/logo-black.svg" alt="" width="1952" height="524"></picture>';
+  const wordmark = '<img class="wordmark-light" src="/assets/logo-black.svg" alt="" width="1952" height="524"><img class="wordmark-dark" src="/assets/logo-white.svg" alt="" width="1952" height="524">';
   let header = await read('src/partials/header.html');
   let footer = await read('src/partials/footer.html');
   const substitute = (content) => content.replace(/\{\{([A-Z_]+)\}\}/g, (_, key) => key === 'WORDMARK' ? wordmark : values[key] ?? (() => { throw new Error(`Missing template value: ${key}`); })());
@@ -51,6 +51,8 @@ export async function build() {
   await cp(path.join(root, 'public'), destination, { recursive: true });
   await writeFile(path.join(destination, 'assets/site.css'), styles.join('\n'));
   await cp(path.join(root, 'src/site.js'), path.join(destination, 'assets/site.js'));
+  await cp(path.join(root, 'src/theme.js'), path.join(destination, 'assets/theme.js'));
+  await cp(path.join(root, 'src/styles/dark.css'), path.join(destination, 'assets/dark.css'));
 
   const pages = [
     { source: 'index', route: '/', title: 'RedWax — Your best frames. Your way.', description: 'A private Mac culling app that brings your taste and shoot intention into the first pass. Review every moment, choose your keepers, and hand off to your editor.' },
@@ -79,6 +81,8 @@ ${preview ? '<meta name="robots" content="noindex,nofollow">' : ''}
 <meta property="og:title" content="${escapeHtml(page.title)}"><meta property="og:description" content="${escapeHtml(page.description)}"><meta property="og:url" content="${canonical}">
 <meta name="twitter:card" content="summary"><meta name="twitter:title" content="${escapeHtml(page.title)}"><meta name="twitter:description" content="${escapeHtml(page.description)}">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="stylesheet" href="/assets/site.css">
+<link rel="stylesheet" id="dark-theme" href="/assets/dark.css" media="(prefers-color-scheme: dark)">
+<script src="/assets/theme.js"></script>
 <script src="/assets/site.js" defer></script></head>
 <body data-surface="site" data-release="${config.status}" data-page="${page.source}">
 <a class="skip-link" href="#main-content">Skip to content</a>${header}${banner}${content}${footer.replaceAll('support@redwaxapp.com', escapeHtml(config.supportEmail))}

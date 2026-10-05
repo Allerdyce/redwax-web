@@ -32,6 +32,6 @@ if (toggle && menu) {
   });
   menu.addEventListener('click', (event) => { if (event.target.closest('a')) close(); });
   document.addEventListener('keydown', (event) => { if (event.key === 'Escape' && menu.classList.contains('is-open')) { close(); toggle.focus(); } });
-  const smallScreen = matchMedia('(max-width: 760px)');
+  const smallScreen = matchMedia('(max-width: 860px)');
   smallScreen.addEventListener('change', close);
 }

@@ -8,6 +8,7 @@
 /* Supplied logo variants retain their lettering and full-color app icon. */
 .redwax-wordmark{display:inline-block;flex-shrink:0;width:120.07px;height:33px}
 .redwax-wordmark picture,.redwax-wordmark img{display:block;width:100%;height:100%;object-fit:contain}
+.redwax-wordmark .wordmark-dark{display:none}
 .hero-app-window .redwax-wordmark{width:106.35px;height:29px}
 .vision-use{color:var(--on-cta,#FFFFFF)!important}
 .hero-app-preview{position:relative;width:100%;aspect-ratio:1280/820;overflow:hidden;border-radius:18px 18px 0 0;filter:drop-shadow(0 28px 48px var(--shot-shadow));background:var(--page)}
