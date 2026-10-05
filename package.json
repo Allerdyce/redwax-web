@@ -1,0 +1,13 @@
+{
+  "name": "redwax-web",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "RedWax marketing website for redwaxapp.com",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/dev.mjs",
+    "test": "node --test tests/*.test.mjs"
+  }
+}

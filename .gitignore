@@ -1,0 +1,7 @@
+dist/
+hosting-public/
+node_modules/
+.vercel/
+.DS_Store
+.env*
+!.env.example
