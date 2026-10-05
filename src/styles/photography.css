@@ -1,0 +1,6 @@
+/* Original generated sample photographs. Creative variants are distinct assets, never CSS filters. */
+.sample-photo{position:relative;overflow:hidden;isolation:isolate;background:var(--fill)}
+.sample-photo>img{display:block;position:absolute;inset:0;width:100%;height:100%;max-width:none;object-fit:cover;object-position:center;z-index:0}
+.sample-photo>span{z-index:1}
+/* A consistent loupe view of the same speaker; crop follows her eyes in every burst frame. */
+.photo-face>img{width:270%;height:270%;left:-42%;top:-25%;right:auto;bottom:auto}

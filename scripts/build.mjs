@@ -45,7 +45,7 @@ export async function build() {
   const substitute = (content) => content.replace(/\{\{([A-Z_]+)\}\}/g, (_, key) => key === 'WORDMARK' ? wordmark : values[key] ?? (() => { throw new Error(`Missing template value: ${key}`); })());
   header = substitute(header);
   footer = substitute(footer);
-  const styles = await Promise.all(['tokens', 'layouts', 'components', 'site'].map((name) => read(`src/styles/${name}.css`)));
+  const styles = await Promise.all(['tokens', 'layouts', 'components', 'photography', 'site'].map((name) => read(`src/styles/${name}.css`)));
   await rm(destination, { recursive: true, force: true });
   await mkdir(path.join(destination, 'assets'), { recursive: true });
   await cp(path.join(root, 'public'), destination, { recursive: true });

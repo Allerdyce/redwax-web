@@ -1,0 +1,262 @@
+{
+  "tool": "Built-in image_gen",
+  "created": "2026-10-04",
+  "purpose": "Original generated fictional sample photographs for RedWax's pre-launch website and illustrative culling UI.",
+  "references": "Only original generated fictional masters were used as image references. No supplied training photographs were used.",
+  "delivery": "Creative scenes, focus, motion, exposure and colour variants were made with image_gen. Sharp was used only for WebP encoding and responsive delivery sizes. Original PNG masters are preserved.",
+  "assets": [
+    {
+      "name": "first-dance-hero",
+      "master": "masters/first-dance-hero.png",
+      "websiteFiles": [
+        "/assets/photos/first-dance-hero-640.webp",
+        "/assets/photos/first-dance-hero-1280.webp"
+      ],
+      "originalGeneratedFile": "exec-a7ca2669-ddda-43fc-9527-5eb6f152e779.png",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: a single unretouched wedding photograph for a culling application's sample shoot, landscape 3:2, highest detail.\nPrimary request: a believable documentary wedding first-dance frame a discerning working photographer would keep for emotion and timing, not an advertising shoot. One photograph, edge to edge, no contact sheet or UI.\nScene: modest converted brick-and-timber reception hall at night. Dim tungsten wall lamps, a few out-of-focus guests at round tables, scuffed wooden dance floor. Mixed warm practical light and a small bounced on-camera flash. Dark corners remain dark, restrained highlights, realistic white balance and slight high-ISO chroma noise.\nSubjects: two fictional newlyweds about 30. Woman with warm olive skin, brown eyes, shoulder-length dark wavy hair loosely pinned at the nape with escaped strands, a simple ivory satin narrow-strap dress, no veil, no ornate jewellery. Man with medium brown skin, short dark curls, a slightly crooked nose and light stubble, black single-breasted suit with white shirt and loosened black tie. She is left of him; they are dancing close, quietly laughing with faces turned to each other, visible eyes, no gaze at the camera.\nComposition: medium wide horizontal shot from a guest's eye level, 50mm documentary lens around f/2.8, 1/160 s, ISO 3200. Their heads and upper bodies read clearly in the central two-thirds; enough reception context and a softly occluding guest shoulder at the far left edge. An unposed moment between poses, slightly asymmetrical framing.\nMaterials: real pores and expression lines, irregular hair strands, uneven soft highlights on satin, wrinkled shirt fabric, natural teeth not gleaming identical veneers. Optical background falloff rather than smeared fake bokeh. Flash falloff consistent with room geometry.\nConstraints: physically correct hands and arms, credible human anatomy, no excessive retouching, no glossy fashion perfection, no orange/teal cinematic grade, no HDR, no luminous haze, no skin smoothing, no illustration, no decorative sparkles, no text, no watermarks. A technically competent but ordinary camera preview with emotional specificity, not a polished final delivery.",
+      "reference": null
+    },
+    {
+      "name": "listing-middle",
+      "master": "masters/listing-middle.png",
+      "websiteFiles": [
+        "/assets/photos/listing-middle-640.webp",
+        "/assets/photos/listing-middle-1280.webp"
+      ],
+      "originalGeneratedFile": "exec-ca5b23d3-0ea3-4edf-ad93-50bd44796618.png",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: single residential real-estate source photograph for bracket-processing demonstration, landscape 3:2, high detail.\nPrimary request: an ordinary professional real-estate tripod photo of a credible lived-in Southern California 1960s ranch living room, before final editing. One photograph, no collage, no text or UI.\nScene: off-white walls with slight wear, oak floorboards, a beige linen three-seat sofa left, a low walnut coffee table holding two ordinary books, a small faded woven rug, a simple muted blue armchair right, large rectangular windows on the back wall looking onto an unremarkable green garden with a wood fence and a single tree. No spectacular ocean view. Window trim consistent, ordinary blinds drawn open. No people.\nComposition: camera at 1.35m high from a room corner, full-frame 24mm lens, two-point perspective without extreme stretch, verticals almost straight; believable room proportions, restrained staging, ample room visible. Natural mid-afternoon light entering the actual back windows, warm unlit interior, no impossible studio light sources.\nExposure: the middle exposure of a three-shot RAW bracket, slightly dark interior and a bright but not completely white window; modest visible garden detail, natural shadows, realistic material texture, slight lens softness in the corners. No overprocessed HDR. Neutral camera color, no luxurious CGI finish.\nConstraints: coherent architecture and furniture, no floating objects, no duplicated chairs, no misleading spatial geometry, no fake sky, no glossy render, no waxy textiles, no inflated bloom, no text, no logos, no watermark.",
+      "reference": null
+    },
+    {
+      "name": "dance-floor-motion",
+      "master": "masters/dance-floor-motion.png",
+      "websiteFiles": [
+        "/assets/photos/dance-floor-motion-640.webp",
+        "/assets/photos/dance-floor-motion-1280.webp"
+      ],
+      "originalGeneratedFile": "exec-63cca8fe-2cd7-476c-9782-d74263d6cb3d.png",
+      "prompt": "Use case: photorealistic-natural. Input image is an identity and venue reference for a new photograph, not a layout to reproduce. Create one landscape 3:2 raw-looking wedding dance-floor photograph, edge to edge, highest detail. SAME fictional couple, exact facial identities and clothes as reference, same brick-and-timber room later that evening. The couple and two adult guests are dancing loosely and laughing with real asymmetrical gestures. Camera is close to the action, handheld 35mm lens, direct on-camera flash plus 1/8s dragged shutter, ISO 1600. Flash freezes the main woman's face and eyes in focus with believable skin pores; ambient tungsten lights leave irregular short curved trails to one side. Some genuine motion in her hair and dress edges, a guest's swinging arm is slightly blurred, but NO multiple faces, extra limbs or ghost bodies. Cramped honest wedding coverage, slightly tilted horizon by 2 degrees, uneven room light, unfussy clothes, warm shadows, flash falloff, not a nightclub advertising photo. Keep believable anatomy and finger joints. No airbrushing, glossy skin, glow, cinematic color grade, confetti, text or watermark. Photographic blur should come from exposure, not a smooth digital smear. This is a compelling keeper from a reception cull.",
+      "reference": "first-dance-hero"
+    },
+    {
+      "name": "speeches-hero",
+      "master": "masters/speeches-hero.png",
+      "websiteFiles": [
+        "/assets/photos/speeches-hero-640.webp",
+        "/assets/photos/speeches-hero-1280.webp"
+      ],
+      "originalGeneratedFile": "exec-d6ced5e4-7a96-4823-b063-4cc775f0dfbf.png",
+      "prompt": "Use case: photorealistic-natural. Reference supplies fictional newlywed identities, wedding attire and brick reception hall. Generate a new single landscape 3:2 candid camera preview from their wedding speeches, not a copy of the first dance. Same couple now seated next to each other at the edge of a round dinner table. Woman on left, man on right, both laugh spontaneously at a toast off camera to the right, eyes visible and awake, his mouth open a little in an imperfect laugh. Loose tie, wrinkled white shirt, naturally creased ivory satin dress, consistent hair. A half-finished water glass and a folded napkin in the lower foreground; modest untidy wedding reality. Photographer standing a few steps away using 85mm f/2.8, 1/160s ISO 5000, available tungsten room light with very weak bounced fill. Slightly underexposed shadows with visible fine digital noise, normal skin texture and expression lines. Tight medium shot, central faces high enough to read in a thumbnail, brick wall and out-of-focus guests behind. Natural inconsistent practical lighting, no orange wash over all skin. No symmetrical posing, studio polish, beautification, HDR, fake bokeh, illustration, text or watermark. Correct hands, glasses and teeth, not perfect toothpaste teeth. Emotional timing matters more than a glossy final edit.",
+      "reference": "first-dance-hero"
+    },
+    {
+      "name": "wedding-portrait-neutral",
+      "master": "masters/wedding-portrait-neutral.png",
+      "websiteFiles": [
+        "/assets/photos/wedding-portrait-neutral-640.webp",
+        "/assets/photos/wedding-portrait-neutral-1280.webp"
+      ],
+      "originalGeneratedFile": "exec-6b06be43-9258-4d25-956d-13189a53b492.png",
+      "prompt": "Use case: photorealistic-natural. Reference supplies ONLY exact fictional identities, hair and wedding clothes. Generate a DIFFERENT single landscape 3:2 daylight wedding portrait from earlier the same day, not an edit of the room. Same woman and man stand close in the modest courtyard outside this brick wedding venue, under mottled open shade, late afternoon before the reception. A worn brick wall, olive tree branches and ordinary gravel, not an exotic perfect vista. He leans toward her and she grins up at him mid-conversation, neither looks at camera. Their faces near centre at mid-upper frame, both from waist up, natural shoulders and hands, no theatrical pose. 85mm lens, f/2.8, 1/400 s, ISO 400. Neutral slightly flat camera JPEG before a photographer's chosen grade; believable detail in the pale satin, normal black suit tones, subtle flyaway hair and natural imperfect skin. Slight edge softness and fine grain, restrained highlights, no halo or washed-out dream haze. Leave enough environmental context. No fashion retouching, polished stock-photo smiles, cinematic LUT, pastel wash, unnatural lens blur, text, logos or watermark.",
+      "reference": "first-dance-hero"
+    },
+    {
+      "name": "event-opening-hero",
+      "master": "masters/event-opening-hero.png",
+      "websiteFiles": [
+        "/assets/photos/event-opening-hero-640.webp",
+        "/assets/photos/event-opening-hero-1280.webp"
+      ],
+      "originalGeneratedFile": "exec-3d6b6abf-422b-415c-a32a-05a4c93d79e3.png",
+      "prompt": "Use case: photorealistic-natural. Asset: one landscape 3:2 candid source photo for an event photographer's culling sequence. Highest detail, edge to edge, no montage, no UI or text. A fictional female conference speaker about 48, warm brown skin, natural crow's feet and smile lines, short tightly curled dark hair with a few grey strands, unstructured deep navy blazer over a cream cotton top. Speaking at a modest evening community business event in a real utilitarian venue: matte dark grey wall, a softly visible potted plant and blurred adult audience shoulders at the bottom edges. No stage logos, no readable signs, no luminous screens. She stands slightly left of centre, waist-up, holding a black handheld microphone properly in her right hand at chest height and making a small relaxed gesture with her left. Both eyes clearly open, mid-sentence with an engaged but not exaggerated expression. 85mm event coverage lens at f/2.8, 1/250s, ISO 3200, ordinary overhead light and a modest off-camera bounce fill. Uneven shadow under the chin, realistic skin pores, creased linen/cotton fabric, subtle sensor noise in shadows, accurate fingers and thumb anatomy. Focus falls cleanly on eyes with gradual optical falloff to the audience. A good timed frame from a burst, not a staged stock model, not silky AI skin or a glossy corporate advert. Avoid HDR, dramatic rimlights, orange/teal, perfect fake teeth, waxy skin, text and watermark.",
+      "reference": null
+    },
+    {
+      "name": "first-dance-motion",
+      "master": "masters/first-dance-motion.png",
+      "websiteFiles": [
+        "/assets/photos/first-dance-motion-640.webp",
+        "/assets/photos/first-dance-motion-1280.webp"
+      ],
+      "originalGeneratedFile": "exec-45b05477-bd79-46fb-8137-40b5618b9205.png",
+      "prompt": "Use case: photorealistic-natural. Single landscape 3:2 photograph, no contact sheet, no typography, no border, no interface. This is an unretouched working wedding/event photograph from the culling stage. Preserve real skin pores, uneven complexion, fine hair, clothing creases, believable optics, imperfect room light and unposed expressions. No beauty retouching, waxy faces, cinematic colour grading, creamy AI glow, fake grain overlay, extra fingers or limbs. The reference is an original generated fictional photograph; use it to maintain the same people's identity, clothing and venue.\nReference role: identity, clothing and venue reference. Create the very next first-dance burst frame, with this same bride left and groom right holding hands as they turn. Camera 50 mm, f/2.8, ISO 3200, 1/10 second with weak bounced flash. Clear genuine slow-shutter movement in their joined hands, dress hem and background tungsten lights; their smiling faces retain enough detail to recognize the same couple. Slight camera sway gives short light trails, not a fantasy swirl. Brick reception hall, round tables and guests remain. Ordinary cropped working frame, not a magazine pose. Bride's loose dark wavy pinned hair, thin strap ivory satin dress; groom dark curls, stubble, black suit, white shirt and loose black tie unchanged.",
+      "reference": "first-dance-hero"
+    },
+    {
+      "name": "first-dance-closed-eyes",
+      "master": "masters/first-dance-closed-eyes.png",
+      "websiteFiles": [
+        "/assets/photos/first-dance-closed-eyes-640.webp",
+        "/assets/photos/first-dance-closed-eyes-1280.webp"
+      ],
+      "originalGeneratedFile": "exec-fa182df0-0dd2-4925-9d1a-9474ea8513ca.png",
+      "prompt": "Use case: photorealistic-natural. Single landscape 3:2 photograph, no contact sheet, no typography, no border, no interface. This is an unretouched working wedding/event photograph from the culling stage. Preserve real skin pores, uneven complexion, fine hair, clothing creases, believable optics, imperfect room light and unposed expressions. No beauty retouching, waxy faces, cinematic colour grading, creamy AI glow, fake grain overlay, extra fingers or limbs. The reference is an original generated fictional photograph; use it to maintain the same people's identity, clothing and venue.\nReference role: identity, clothing and venue. A neighboring burst frame from exactly this first dance, same couple in this brick reception hall. The bride has both eyes naturally and unmistakably closed, laughs and leans her forehead toward the groom; he looks at her with a warm uneven smile. Emotionally good photograph despite closed eyes. Their hands are still held, framing waist up, 50 mm f/2.8, ISO 4000, 1/160 second weak bounced flash. Faces and fabric sharp; shadow noise subtle and realistic. Do not turn this into a kiss, posed fashion portrait, or different people.",
+      "reference": "first-dance-hero"
+    },
+    {
+      "name": "first-dance-missed-focus",
+      "master": "masters/first-dance-missed-focus.png",
+      "websiteFiles": [
+        "/assets/photos/first-dance-missed-focus-640.webp",
+        "/assets/photos/first-dance-missed-focus-1280.webp"
+      ],
+      "originalGeneratedFile": "exec-2c878e5a-adb0-4ea8-84a7-bd56d2825e6f.png",
+      "prompt": "Use case: photorealistic-natural. Single landscape 3:2 photograph, no contact sheet, no typography, no border, no interface. This is an unretouched working wedding/event photograph from the culling stage. Preserve real skin pores, uneven complexion, fine hair, clothing creases, believable optics, imperfect room light and unposed expressions. No beauty retouching, waxy faces, cinematic colour grading, creamy AI glow, fake grain overlay, extra fingers or limbs. The reference is an original generated fictional photograph; use it to maintain the same people's identity, clothing and venue.\nReference role: edit target. Preserve this exact first-dance photograph, composition, faces, hand poses, people, dress, room geometry and colour. Change ONLY the focus: autofocus missed the couple and landed farther back on the guests and candlelit tables. Both principal faces, hair and clothing should be visibly out of focus, as a real 50 mm lens at f/2.0 would render a couple nearer than the focus plane. Background tables slightly sharper. Do not use motion streaks, a uniform blur on the entire photo, mist or cosmetic skin smoothing. The result must convincingly show a technically rejected real burst frame.",
+      "reference": "first-dance-hero"
+    },
+    {
+      "name": "dance-floor-closed-eyes",
+      "master": "masters/dance-floor-closed-eyes.png",
+      "websiteFiles": [
+        "/assets/photos/dance-floor-closed-eyes-640.webp",
+        "/assets/photos/dance-floor-closed-eyes-1280.webp"
+      ],
+      "originalGeneratedFile": "exec-f607cd97-37f6-44ae-9402-31f6f69e4848.png",
+      "prompt": "Use case: photorealistic-natural. Single landscape 3:2 photograph, no contact sheet, no typography, no border, no interface. This is an unretouched working wedding/event photograph from the culling stage. Preserve real skin pores, uneven complexion, fine hair, clothing creases, believable optics, imperfect room light and unposed expressions. No beauty retouching, waxy faces, cinematic colour grading, creamy AI glow, fake grain overlay, extra fingers or limbs. The reference is an original generated fictional photograph; use it to maintain the same people's identity, clothing and venue.\nReference role: identity, clothing, companions and venue. A neighboring candid dance-floor frame of exactly these four people, same bride and groom central, dark green dress guest left and rolled-sleeve guest right. Bride and groom both have eyes naturally fully closed while laughing and moving to music. Preserve characteristic facial shapes. 35 mm close direct flash, 1/60 second, ISO 4000; flash sharply freezes main faces while background lights have short natural motion. Slightly off-level crop and elbow partly cut off. Bride's right hand now rests at waist, left arm low; four people's limbs remain physically clear. Crowded brick reception hall, scuffed dance floor. Spontaneous rather than polished.",
+      "reference": "dance-floor-motion"
+    },
+    {
+      "name": "dance-floor-alternate",
+      "master": "masters/dance-floor-alternate.png",
+      "websiteFiles": [
+        "/assets/photos/dance-floor-alternate-640.webp",
+        "/assets/photos/dance-floor-alternate-1280.webp"
+      ],
+      "originalGeneratedFile": "exec-b2f582ed-9cec-450c-8734-dc4e32ba9949.png",
+      "prompt": "Use case: photorealistic-natural. Single landscape 3:2 photograph, no contact sheet, no typography, no border, no interface. This is an unretouched working wedding/event photograph from the culling stage. Preserve real skin pores, uneven complexion, fine hair, clothing creases, believable optics, imperfect room light and unposed expressions. No beauty retouching, waxy faces, cinematic colour grading, creamy AI glow, fake grain overlay, extra fingers or limbs. The reference is an original generated fictional photograph; use it to maintain the same people's identity, clothing and venue.\nReference role: same fictional people, clothes and room. Another burst frame three seconds later of same bride and groom dancing with same two friends. Bride now turns toward camera laughing, both eyes clearly open; groom looks across at left guest, eyes open. Hands low and anatomically clear, don't add hands. Slight shift in expression and arm position only; 35 mm direct flash, 1/160 second, ISO 3200, f/3.2. No dragged shutter on this frame. It is technically sharp but the timing feels slightly less connected than the reference. Reception room dark, normal direct-flash falloff, dress creased, no plastic polish.",
+      "reference": "dance-floor-motion"
+    },
+    {
+      "name": "speeches-grain",
+      "master": "masters/speeches-grain.png",
+      "websiteFiles": [
+        "/assets/photos/speeches-grain-640.webp",
+        "/assets/photos/speeches-grain-1280.webp"
+      ],
+      "originalGeneratedFile": "exec-522654c6-ebef-47e8-84b6-744684202a84.png",
+      "prompt": "Use case: photorealistic-natural. Single landscape 3:2 photograph, no contact sheet, no typography, no border, no interface. This is an unretouched working wedding/event photograph from the culling stage. Preserve real skin pores, uneven complexion, fine hair, clothing creases, believable optics, imperfect room light and unposed expressions. No beauty retouching, waxy faces, cinematic colour grading, creamy AI glow, fake grain overlay, extra fingers or limbs. The reference is an original generated fictional photograph; use it to maintain the same people's identity, clothing and venue.\nReference role: same couple, seated position, clothing and table. A frame a second later during the same speech. Groom has just leaned back laughing at the speaker off frame, bride grins toward him; no new gestures or objects. Shoot available tungsten light without flash, 85 mm f/2.0 ISO 12800, 1/125 second. Half a stop darker, genuine visible fine high-ISO sensor noise strongest in shadows and textured faces, imperfect warm white balance. Do not add chunky uniform film-grain filter or retro border. Emotion and sharp facial detail survive. Keep believable skin, ordinary wedding table clutter and room.",
+      "reference": "speeches-hero"
+    },
+    {
+      "name": "speeches-closed-eyes",
+      "master": "masters/speeches-closed-eyes.png",
+      "websiteFiles": [
+        "/assets/photos/speeches-closed-eyes-640.webp",
+        "/assets/photos/speeches-closed-eyes-1280.webp"
+      ],
+      "originalGeneratedFile": "exec-175df495-1089-488f-b601-e4cb63a77a8f.png",
+      "prompt": "Use case: photorealistic-natural. Single landscape 3:2 photograph, no contact sheet, no typography, no border, no interface. This is an unretouched working wedding/event photograph from the culling stage. Preserve real skin pores, uneven complexion, fine hair, clothing creases, believable optics, imperfect room light and unposed expressions. No beauty retouching, waxy faces, cinematic colour grading, creamy AI glow, fake grain overlay, extra fingers or limbs. The reference is an original generated fictional photograph; use it to maintain the same people's identity, clothing and venue.\nReference role: same couple, wedding table and room. Another burst frame of this exact couple seated during speeches, both eyes closed naturally mid hearty laughter, bride leans slightly forward with hand near chin, groom turns subtly toward her. Faces sharp and honest laugh wrinkles, teeth anatomically natural, no caricature. 85 mm f/2.8, ISO 5000, 1/160 second, weak bounced flash mixed with tungsten. Keep plates, glasses and flowers in same general arrangement. Same creased satin and black suit. A meaningful candid keeper despite closed eyes; no staged smile or dreamy retouch.",
+      "reference": "speeches-hero"
+    },
+    {
+      "name": "speeches-soft-focus",
+      "master": "masters/speeches-soft-focus.png",
+      "websiteFiles": [
+        "/assets/photos/speeches-soft-focus-640.webp",
+        "/assets/photos/speeches-soft-focus-1280.webp"
+      ],
+      "originalGeneratedFile": "exec-0c1ab5a8-eb1e-460c-88f4-e6a549b98130.png",
+      "prompt": "Use case: photorealistic-natural. Single landscape 3:2 photograph, no contact sheet, no typography, no border, no interface. This is an unretouched working wedding/event photograph from the culling stage. Preserve real skin pores, uneven complexion, fine hair, clothing creases, believable optics, imperfect room light and unposed expressions. No beauty retouching, waxy faces, cinematic colour grading, creamy AI glow, fake grain overlay, extra fingers or limbs. The reference is an original generated fictional photograph; use it to maintain the same people's identity, clothing and venue.\nReference role: edit target. Keep this exact image's composition, identities, expressions, seated pose, hand placement, table, room, lighting and colours. Change ONLY focal accuracy: a slight autofocus miss leaves the main couple's faces and eyelashes mildly but visibly soft while the foreground glass rims are sharp. Believable wide-aperture optical defocus, no global smoothing, no glow, no motion smear. This is a borderline frame a photographer would check at 100%, visibly less crisp than the source.",
+      "reference": "speeches-hero"
+    },
+    {
+      "name": "first-dance-alternate",
+      "master": "masters/first-dance-alternate.png",
+      "websiteFiles": [
+        "/assets/photos/first-dance-alternate-640.webp",
+        "/assets/photos/first-dance-alternate-1280.webp"
+      ],
+      "originalGeneratedFile": "exec-8934dfa6-0202-49a5-a5bb-6a8619137580.png",
+      "prompt": "Use case: photorealistic-natural. One landscape 3:2 photograph, no text, grid or border. Real working capture with visible skin texture, natural hair and clothing creases, unposed expression, ordinary optics and light. No beauty retouching, waxy skin, cinematic glow or stylized AI polish.\nReference role: identity, clothes and room reference. Photograph the same fictional couple a second later during their first dance, bride left, groom right, holding hands. They have moved slightly apart and now glance to their right toward a guest, both eyes clearly open, smiles slightly less intimate. Same dark loosely pinned wavy hair and creased ivory thin-strap satin dress, black suit, white shirt, loose black tie, dark curly hair and stubble. Waist-up 50 mm, f/2.8, ISO 4000, 1/160 sec, weak bounced flash in brick reception hall with round tables. Not a posed portrait; preserve the identifying facial shapes and genuine uneven complexion. Realistic hand clasp with no extra fingers.",
+      "reference": "first-dance-hero"
+    },
+    {
+      "name": "dance-floor-motion-alternate",
+      "master": "masters/dance-floor-motion-alternate.png",
+      "websiteFiles": [
+        "/assets/photos/dance-floor-motion-alternate-640.webp",
+        "/assets/photos/dance-floor-motion-alternate-1280.webp"
+      ],
+      "originalGeneratedFile": "exec-a2b31c1a-7396-4a28-b047-ad851a1d0bbb.png",
+      "prompt": "Use case: photorealistic-natural. One landscape 3:2 photograph, no text, grid or border. Real working capture with visible skin texture, natural hair and clothing creases, unposed expression, ordinary optics and light. No beauty retouching, waxy skin, cinematic glow or stylized AI polish.\nReference role: identity, clothes, friends and reception hall. Another frame of exactly the same four people dancing, bride left-centre and groom right-centre. Bride has lowered her raised arm and leans toward groom, smiling; groom turns toward her. Green-dress guest left continues laughing, shirt-and-tie guest at right turns away slightly. 35 mm close direct flash, 1/8 sec, ISO 3200. Strong visible but optically plausible dragged-shutter movement in hands, dancing guests and tungsten lights; principal faces mostly frozen by flash. Off-centre quick working crop, no fantasy light spiral, no extra limbs, no changed bride or venue. Creased satin, skin pores, ordinary crowded dance floor.",
+      "reference": "dance-floor-motion"
+    },
+    {
+      "name": "event-opening-alternate",
+      "master": "masters/event-opening-alternate.png",
+      "websiteFiles": [
+        "/assets/photos/event-opening-alternate-640.webp",
+        "/assets/photos/event-opening-alternate-1280.webp"
+      ],
+      "originalGeneratedFile": "exec-baa1a588-2290-4d65-899d-d354d096a633.png",
+      "prompt": "Use case: photorealistic-natural. One landscape 3:2 photograph, no text, grid or border. Real working capture with visible skin texture, natural hair and clothing creases, unposed expression, ordinary optics and light. No beauty retouching, waxy skin, cinematic glow or stylized AI polish.\nReference role: same fictional woman, microphone, clothes, room and audience. A neighboring burst frame of this community business event speaker a second later. Same middle-aged woman with short dark tight curls and grey strands, warm brown freckled skin and crow's feet, navy linen blazer and cream top. She looks a few degrees further right with BOTH eyes fully open, slight natural smile, microphone in right hand unchanged, left hand lower at waist. Preserve main face position near x=39%, y=28% for later side-by-side face comparison. 85 mm f/2.8 ISO3200 1/160 sec overhead room lighting plus modest bounce, no cosmetic smoothing, sharp eyelashes. Same grey wall, plant right, foreground audience shoulders. No signs or logos.",
+      "reference": "event-opening-hero"
+    },
+    {
+      "name": "event-opening-blink",
+      "master": "masters/event-opening-blink.png",
+      "websiteFiles": [
+        "/assets/photos/event-opening-blink-640.webp",
+        "/assets/photos/event-opening-blink-1280.webp"
+      ],
+      "originalGeneratedFile": "exec-76e27835-fa31-4571-81d3-bf289bbef532.png",
+      "prompt": "Use case: photorealistic-natural. One landscape 3:2 photograph, no text, grid or border. Real working capture with visible skin texture, natural hair and clothing creases, unposed expression, ordinary optics and light. No beauty retouching, waxy skin, cinematic glow or stylized AI polish.\nReference role: EDIT TARGET. Keep this exact photograph, person identity, face location, head angle, mouth, hairstyle, navy linen clothes, microphone, hands, audience, room geometry, lighting, colour and composition. Change ONLY her eyelids to a genuine mid-speech blink with BOTH eyes fully closed and unmistakably visible. Preserve eyelid anatomy and crow's feet, face and eyelashes in sharp focus. No other scene or pose changes. This should be the adjacent burst frame that a photographer skips because of the blink. Do not beautify, smooth or reconstruct the scene.",
+      "reference": "event-opening-hero"
+    },
+    {
+      "name": "event-opening-soft-focus",
+      "master": "masters/event-opening-soft-focus.png",
+      "websiteFiles": [
+        "/assets/photos/event-opening-soft-focus-640.webp",
+        "/assets/photos/event-opening-soft-focus-1280.webp"
+      ],
+      "originalGeneratedFile": "exec-36a282e8-be8b-4536-b0fe-b8d461e62b4d.png",
+      "prompt": "Use case: photorealistic-natural. One landscape 3:2 photograph, no text, grid or border. Real working capture with visible skin texture, natural hair and clothing creases, unposed expression, ordinary optics and light. No beauty retouching, waxy skin, cinematic glow or stylized AI polish.\nReference role: EDIT TARGET. Preserve this exact photograph's speaker, face position, mouth and eye state, microphone, hands, clothes, audience, room, lighting, composition and colour. Change ONLY focus: a slight autofocus miss leaves the woman's eyes, face, hair and blazer visibly soft while the near audience head at bottom right is more in focus. Natural optical defocus with an 85 mm f/2.8 lens, not a mist or uniform blur, no face smoothing or beauty treatment. Borderline soft frame, not grotesquely blurred.",
+      "reference": "event-opening-hero"
+    },
+    {
+      "name": "listing-under",
+      "master": "masters/listing-under.png",
+      "websiteFiles": [
+        "/assets/photos/listing-under-640.webp",
+        "/assets/photos/listing-under-1280.webp"
+      ],
+      "originalGeneratedFile": "exec-6af378da-ef4b-4e7e-829f-08b6b628e7e9.png",
+      "prompt": "Use case: photorealistic-natural. Reference role: exact EDIT TARGET, locked tripod bracket. Preserve EVERY pixel-aligned physical feature and composition of this generated living room: sofa, pillows, coffee table books and plant, rug, chair, fireplace, doorway, picture, window divisions, garden, fence, tree, house and shadows. Change ONLY exposure to the minus-two-stop RAW bracket. Interior is markedly dark and underexposed, with fine realistic shadow noise; the view through all windows is properly exposed with green leaves and fence detail. No shifted furniture, additions, removal, sky replacement, altered geometry, relighting or style. One landscape 3:2 photograph, no text or frame. This must read as the identical tripod capture at a shorter shutter speed.",
+      "reference": "listing-middle"
+    },
+    {
+      "name": "listing-over",
+      "master": "masters/listing-over.png",
+      "websiteFiles": [
+        "/assets/photos/listing-over-640.webp",
+        "/assets/photos/listing-over-1280.webp"
+      ],
+      "originalGeneratedFile": "exec-ff2e1dc7-6920-420f-bc98-34002434400e.png",
+      "prompt": "Use case: photorealistic-natural. Reference role: exact EDIT TARGET, locked tripod bracket. Preserve EVERY pixel-aligned physical feature and composition of this generated living room: sofa, pillows, coffee table books and plant, rug, chair, fireplace, doorway, picture, window divisions, garden, fence, tree and shadows. Change ONLY exposure to the plus-two-stop RAW bracket. Interior becomes bright and legible, with sofa and walls slightly washed and windows largely clipped to bright white; garden detail mostly lost to real overexposure. No moved furniture, additions, removal, replaced sky, different geometry or HDR treatment. Landscape 3:2 photo no words/border. It is exactly the same tripod image at a longer shutter speed.",
+      "reference": "listing-middle"
+    },
+    {
+      "name": "listing-balanced",
+      "master": "masters/listing-balanced.png",
+      "websiteFiles": [
+        "/assets/photos/listing-balanced-640.webp",
+        "/assets/photos/listing-balanced-1280.webp"
+      ],
+      "originalGeneratedFile": "exec-2af273e8-5853-4a88-9fae-921c1a5a98d5.png",
+      "prompt": "Use case: photorealistic-natural. Reference role: exact EDIT TARGET. Produce a restrained, professionally finished bracket-merged listing image of this exact living room. Preserve the exact camera view and all furniture positions, architecture, windows, plants, rug, artwork, coffee table books, fireplace, and the actual garden fence, tree and house outside. Change ONLY exposure/tone/white balance: raise interior shadows and midtones about 1 stop, clean slightly warm walls to neutral cream, retain realistic darker recesses and contact shadows, recover readable detail through windows without making the outdoors unnaturally darker than indoors. Subtle clear verticals, no geometric redraw. No HDR halos, over-sharpening, oversaturation, CGI gloss, invented staging or sky replacement. One landscape 3:2 photo, no words/border. Normal MLS-quality photo, believable furnished modest home, not architectural fantasy.",
+      "reference": "listing-middle"
+    },
+    {
+      "name": "wedding-portrait-styled",
+      "master": "masters/wedding-portrait-styled.png",
+      "websiteFiles": [
+        "/assets/photos/wedding-portrait-styled-640.webp",
+        "/assets/photos/wedding-portrait-styled-1280.webp"
+      ],
+      "originalGeneratedFile": "exec-58d77bfe-ef54-41bc-a6eb-4af26f41cf78.png",
+      "prompt": "Use case: photorealistic-natural. Reference role: exact EDIT TARGET. Apply only a restrained Lightroom-style colour and tone edit to this exact photograph. Preserve pixel-aligned composition, people's identities and expressions, faces and skin pores, eyelashes, every hair and hand, satin texture, suit, courtyard brickwork, olive leaves, windows and background guests. Warm highlights a little, gently deepen neutral shadows, render foliage a slightly quieter olive green, modestly warm skin without orange cast, reduce harsh highlight glare on satin, retain natural contrast and texture. This is a photographer's subtle warm documentary edit, visibly warmer and more coherent than camera JPEG but still a credible photo. Do NOT retouch faces, smooth skin, change anatomy, add cinematic teal, heavy film tint, fake grain, blur, objects, lighting or crop. Landscape 3:2, no text or border.",
+      "reference": "wedding-portrait-neutral"
+    }
+  ]
+}

@@ -17,7 +17,7 @@ test('release requires a real download and approved privacy policy', () => {
   assert.throws(() => validateConfig({ ...config, downloadUrl: 'https://apps.apple.com/us/app/example/id12345', privacyApproved: false }), /privacy/);
 });
 test('protected pages and assets never reveal content before login', async () => {
-  for (const route of ['/', '/index.html', '/support/', '/privacy/', '/assets/site.css', '/assets/logo-black.svg', '/assets/logo-white.svg', '/assets/app-icon.svg', '/api/site', '/not-found']) {
+  for (const route of ['/', '/index.html', '/support/', '/privacy/', '/assets/site.css', '/assets/logo-black.svg', '/assets/logo-white.svg', '/assets/app-icon.svg', '/assets/photos/first-dance-hero-640.webp', '/api/site', '/not-found']) {
     const response = await handleRequest(request(route), env);
     const body = await response.text();
     assert.match(body, /Preview password/);
@@ -44,6 +44,12 @@ test('incorrect password fails, correct password gives a secure cookie and inten
   const asset = await handleRequest(request('/assets/site.css', { headers: { cookie } }), env);
   assert.equal(asset.status, 200);
   assert.match(asset.headers.get('content-type'), /text\/css/);
+  const photograph = await handleRequest(request('/assets/photos/first-dance-hero-640.webp', { headers: { cookie } }), env);
+  assert.equal(photograph.status, 200);
+  assert.equal(photograph.headers.get('content-type'), 'image/webp');
+  const bytes = new Uint8Array(await photograph.arrayBuffer());
+  assert.equal(new TextDecoder().decode(bytes.slice(0, 4)), 'RIFF');
+  assert.equal(new TextDecoder().decode(bytes.slice(8, 12)), 'WEBP');
   assert.equal((await handleRequest(request('/missing', { headers: { cookie } }), env)).status, 404);
 });
 test('session rejects tampering and expires after a week', () => {
