@@ -35,3 +35,36 @@ if (toggle && menu) {
   const smallScreen = matchMedia('(max-width: 860px)');
   smallScreen.addEventListener('change', close);
 }
+
+if (document.body.dataset.page === 'index') {
+  const nav = document.querySelector('.site-nav');
+  const sections = Array.from(document.querySelectorAll('.nav-menu [data-nav-section]'), (link) => ({
+    link,
+    section: document.getElementById(link.dataset.navSection),
+  })).filter(({ section }) => section);
+  let activeLink = null;
+  let scheduled = false;
+
+  const updateCurrentSection = () => {
+    scheduled = false;
+    const readingLine = nav.getBoundingClientRect().height + Math.min(160, innerHeight * 0.2);
+    const current = sections.find(({ section }) => {
+      const bounds = section.getBoundingClientRect();
+      return bounds.top <= readingLine && bounds.bottom > readingLine;
+    })?.link ?? null;
+    if (current === activeLink) return;
+    activeLink?.removeAttribute('aria-current');
+    current?.setAttribute('aria-current', 'location');
+    activeLink = current;
+  };
+  const scheduleUpdate = () => {
+    if (scheduled) return;
+    scheduled = true;
+    requestAnimationFrame(updateCurrentSection);
+  };
+  addEventListener('scroll', scheduleUpdate, { passive: true });
+  addEventListener('resize', scheduleUpdate);
+  addEventListener('hashchange', scheduleUpdate);
+  addEventListener('pageshow', scheduleUpdate);
+  updateCurrentSection();
+}

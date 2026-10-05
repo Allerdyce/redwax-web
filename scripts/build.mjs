@@ -64,6 +64,8 @@ export async function build() {
     if (/will be published before|being built|\[DATE\]|\[Postal address\]|\[How long/.test(privacy)) throw new Error('Replace the pre-release privacy page with the approved policy before release.');
   }
   for (const page of pages) {
+    let pageHeader = header.replace(`data-nav-page="${page.source}"`, `data-nav-page="${page.source}" aria-current="page"`);
+    if (page.source === 'privacy') pageHeader = pageHeader.replace('href="/#privacy"', 'href="/privacy/"');
     let content = substitute(await read(`src/pages/${page.source}.html`));
     if (!released && page.source === 'index') content = content.replace('href="/#download" data-download-link', `href="mailto:${escapeHtml(config.supportEmail)}?subject=RedWax%20launch" data-download-link`);
     // The email address can change in one place, without hand-editing each page.
@@ -85,7 +87,7 @@ ${preview ? '<meta name="robots" content="noindex,nofollow">' : ''}
 <script src="/assets/theme.js"></script>
 <script src="/assets/site.js" defer></script></head>
 <body data-surface="site" data-release="${config.status}" data-page="${page.source}">
-<a class="skip-link" href="#main-content">Skip to content</a>${header}${banner}${content}${footer.replaceAll('support@redwaxapp.com', escapeHtml(config.supportEmail))}
+<a class="skip-link" href="#main-content">Skip to content</a>${pageHeader}${banner}${content}${footer.replaceAll('support@redwaxapp.com', escapeHtml(config.supportEmail))}
 </body></html>`;
     const pageDir = path.join(destination, page.route);
     await mkdir(pageDir, { recursive: true });
